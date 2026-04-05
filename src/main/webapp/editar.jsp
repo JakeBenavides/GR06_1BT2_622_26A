@@ -153,7 +153,7 @@
 </div>
 
 <div class="footer">
-    Made by WitaPoke
+    Made by GR06
 </div>
 
 <%
