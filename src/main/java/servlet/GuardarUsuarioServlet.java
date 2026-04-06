@@ -11,7 +11,7 @@ import util.HibernateUtil;
 import java.io.IOException;
 
 @WebServlet("/guardarUsuario")
-public class GuardarUsuarioServlets extends HttpServlet {
+public class GuardarUsuarioServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
