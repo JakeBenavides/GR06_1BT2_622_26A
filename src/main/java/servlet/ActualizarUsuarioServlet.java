@@ -5,6 +5,7 @@ import jakarta.servlet.http.*;
 import modelo.Usuario;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import util.HibernateUtil;
 
 @WebServlet("/actualizar")
 public class ActualizarUsuarioServlet extends HttpServlet {
