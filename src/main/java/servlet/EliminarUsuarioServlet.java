@@ -8,6 +8,7 @@ import org.hibernate.Transaction;
 import util.HibernateUtil;
 
 @WebServlet("/eliminar")
+
 public class EliminarUsuarioServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) {
@@ -21,14 +22,14 @@ public class EliminarUsuarioServlet extends HttpServlet {
         if(u != null){
             session.remove(u);
         }
-
         tx.commit();
         session.close();
-
         try {
             response.sendRedirect("listaUsuarios.jsp");
         } catch (Exception e) {
+
             e.printStackTrace();
+
         }
     }
 }

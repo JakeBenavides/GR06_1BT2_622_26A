@@ -12,7 +12,6 @@
             padding: 0;
             box-sizing: border-box;
         }
-
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #764ba2 0%, #000000 100%);
@@ -21,7 +20,6 @@
             flex-direction: column;
             padding: 20px;
         }
-
         .container {
             max-width: 1000px;
             margin: 0 auto;
@@ -31,7 +29,6 @@
             justify-content: center;
             align-items: center;
         }
-
         h2 {
             color: white;
             text-align: center;
